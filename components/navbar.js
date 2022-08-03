@@ -13,8 +13,8 @@ function Navigasi() {
             <Image
               src={caca}
               alt="hehe"
-              width={85}
-              height={30}
+              width={90}
+              height={40}
               className="d-inline-block align-top"
             /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
