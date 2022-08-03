@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link';
-import Image from 'next/Image';
+import Image from 'next/image';
 import caca from '../public/caca.png'
 
 function Navigasi() {

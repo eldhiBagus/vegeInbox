@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/Link';
+import Link from 'next/link';
 import caca from '../public/caca.png';
 import f2 from '../public/f2.png';
 import f1 from '../public/f1.png';
