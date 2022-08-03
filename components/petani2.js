@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import abang2 from '../public/abang2.png';
 
 export default function Petani2() {
   return (
@@ -12,7 +13,7 @@ export default function Petani2() {
             </div>
             <div className="col-sm-5">
                 <Image 
-                src="/abang2.png"
+                src={abang2}
                 width="100%"
                 layout="responsive"
                 height={125}

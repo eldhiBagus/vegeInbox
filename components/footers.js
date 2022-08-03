@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/Link';
+import caca from '../public/caca.png';
+import f2 from '../public/f2.png';
+import f1 from '../public/f1.png';
 
 export default function Footers() {
   return (
@@ -7,7 +10,7 @@ export default function Footers() {
         <div className='row warna py-3'>
             <div className="col-sm-3">
                 <Image 
-                src="/f1.png"
+                src={f1}
                 width="100%"
                 layout="responsive"
                 height={100}
@@ -24,7 +27,7 @@ export default function Footers() {
             </div>
             <div className="col-sm-3">
             <Image 
-                src="/f2.png"
+                src={f2}
                 width="100%"
                 layout="responsive"
                 height={100}
@@ -37,7 +40,7 @@ export default function Footers() {
                 <div className="col-sm-3">
                 <Image
               alt="app"
-              src="/caca.png"
+              src={caca}
               width="100"
               height="50"
               className="d-inline-block align-top"
@@ -45,9 +48,9 @@ export default function Footers() {
                 </div>
                 <div className="col-sm-3">
                 <ul>
-                    <li><Link href="/" passHref>Home</Link></li>
-                    <li><Link href="/product" passHref>Product</Link></li>
-                    <li><Link href="/abouts" passHref>About Us</Link></li>
+                    <li><Link href="/" passHref><a><b>Home</b></a></Link></li>
+                    <li><Link href="/product" passHref><a><b>Products</b></a></Link></li>
+                    <li><Link href="/abouts" passHref><a><b>About Us</b></a></Link></li>
                 </ul>
                 </div>
                 <div className="col-sm-3">

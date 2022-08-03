@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image from 'next/image'
+import Image from 'next/image';
+import vege1 from '../public/vege1.jpg';
+import vege2 from '../public/vege2.jpg';
+import vege3 from '../public/vege3.jpg';
 
 function Banner() {
   return (
@@ -8,7 +11,7 @@ function Banner() {
       <Carousel.Item>
         <Image
           className="d-block"
-          src="/vege1.jpg"
+          src={vege1}
           width="100%"
           layout="responsive"
           height={40}
@@ -22,7 +25,7 @@ function Banner() {
       <Carousel.Item>
         <Image
           className="d-block"
-          src="/vege2.jpg"
+          src={vege2}
           width="100%"
           layout="responsive"
           height={40}
@@ -37,7 +40,7 @@ function Banner() {
       <Carousel.Item>
         <Image
           className="d-block"
-          src="/vege3.jpg"
+          src={vege3}
           width="100%"
           layout="responsive"
           height={40}
