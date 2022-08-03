@@ -11,6 +11,7 @@ export default function Footers() {
                 width="100%"
                 layout="responsive"
                 height={100}
+                alt="f1"
                 />
             </div>
             <div className="col-sm-6 align-self-center">
@@ -27,6 +28,7 @@ export default function Footers() {
                 width="100%"
                 layout="responsive"
                 height={100}
+                alt="F2"
                 />
             </div>
         </div>
