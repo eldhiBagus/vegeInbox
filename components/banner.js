@@ -18,7 +18,8 @@ function Banner() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1 className="juduls">Sayuran Organik Segar Bersamamu</h1>
+          <h2 className="juduls">Sayuran Organik Segar</h2>
+          <p className="juduls">Selalu gunakan Sayuran Organik segar di setiap kondimen makananmu.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,7 +33,8 @@ function Banner() {
         />
 
         <Carousel.Caption>
-        <h1 className="juduls">Selalu Dengan Petani Lokal</h1>
+        <h2 className="juduls">Petani Lokal</h2>
+          <p className="juduls">Kami Selalu Bekerja sama dengan Petani lokal.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -46,7 +48,8 @@ function Banner() {
         />
 
         <Carousel.Caption>
-        <h1 className="juduls">Sayuran ku Mewarnai kehidupanmu</h1>
+        <h2 className="juduls">Mewarnai kehidupanmu</h2>
+          <p className="juduls">Sayuran Organik segar selalu berdampingan dengan mu.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
