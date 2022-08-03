@@ -20,9 +20,9 @@ function Navigasi() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="ms-5"><Link href="/" passHref><a><b>Home</b></a></Link></Nav.Link>
-            <Nav.Link className="ms-5"><Link href="/abouts" passHref><a><b>About Us</b></a></Link></Nav.Link>
-            <Nav.Link className="ms-5"><Link href="/product" passHref><a><b>Products</b></a></Link></Nav.Link>
+            <Nav.Link className="ms-5"><Link href="/" passHref><b>Home</b></Link></Nav.Link>
+            <Nav.Link className="ms-5"><Link href="/abouts" passHref><b>About Us</b></Link></Nav.Link>
+            <Nav.Link className="ms-5"><Link href="/product" passHref><b>Products</b></Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
