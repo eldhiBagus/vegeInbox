@@ -10,7 +10,7 @@ export default function Petani3() {
                 width="100%"
                 layout="responsive"
                 height={125}
-                alt="petan1"
+                alt="petani"
                  />
             </div>
             <div className="col-sm-7 p-5">
