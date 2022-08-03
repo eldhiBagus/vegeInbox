@@ -45,9 +45,9 @@ export default function Footers() {
                 </div>
                 <div className="col-sm-3">
                 <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/product">Product</Link></li>
-                    <li><Link href="/abouts">About Us</Link></li>
+                    <li><Link href="/" passHref>Home</Link></li>
+                    <li><Link href="/product" passHref>Product</Link></li>
+                    <li><Link href="/abouts" passHref>About Us</Link></li>
                 </ul>
                 </div>
                 <div className="col-sm-3">

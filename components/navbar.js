@@ -10,10 +10,10 @@ function Navigasi() {
       <Container>
         <Navbar.Brand><Link href="/" passHref>
             <Image
-              alt="hehe"
               src="/caca.png"
-              width="100"
-              height="50"
+              alt="hehe"
+              width={100}
+              height={50}
               className="d-inline-block align-top"
             /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
