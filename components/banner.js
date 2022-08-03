@@ -19,7 +19,7 @@ function Banner() {
         />
         <Carousel.Caption>
           <h2 className="juduls">Sayuran Organik Segar</h2>
-          <p className="juduls">Selalu gunakan Sayuran Organik segar di setiap kondimen makananmu.</p>
+          <p className="juduls">Gunakan di setiap kondimen masakanmu</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,7 +48,7 @@ function Banner() {
         />
 
         <Carousel.Caption>
-        <h2 className="juduls">Mewarnai kehidupanmu</h2>
+        <h2 className="juduls">Pilihan Tepat</h2>
           <p className="juduls">Sayuran Organik segar selalu berdampingan dengan mu.</p>
         </Carousel.Caption>
       </Carousel.Item>
